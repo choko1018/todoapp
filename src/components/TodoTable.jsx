@@ -26,7 +26,7 @@ export function TodoTable({ todoList, onChange }){
                         <Td>
                             <TodoEditableInput 
                             title={todo.title}
-                            onChange={(Text) =>
+                            onChangeText={(text) =>
                                 onChange(todo.id, { ...todo, title:text})
                              } 
                         />

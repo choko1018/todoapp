@@ -5,7 +5,6 @@ export function TodoEditableInput({ title, onChangeText }) {
         <Editable
         defaultValue={ title }
       value={title}
-      onValueChange={(e) => console.log(e.value)}
       placeholder="Click to edit"
     >
       <EditablePreview />

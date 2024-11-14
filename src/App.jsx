@@ -21,7 +21,7 @@ function App(){
   const updateTodo = (id, newTodo) => {
     const index = todoList.findIndex((todo) => todo.id === id);
     if(index < 0) return;
-    todolist[index] = newTodo;
+    todoList[index] = newTodo;
     setTodoList([ ... todoList]);
   }
 
