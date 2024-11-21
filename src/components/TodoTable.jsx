@@ -7,7 +7,7 @@ import {
     Thead,
     Tr,
 } from "@chakra-ui/react";
-import { TodoEditableInput } from "./TodoEditableinput";
+import { TodoEditableInput } from "./TodoEditableInput";
 import { RadioButtonList } from "./RadioButtonList";
 
 export function TodoTable({ todoList, onChange }){
